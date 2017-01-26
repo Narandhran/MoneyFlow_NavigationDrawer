@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.neemshade.moneyflow.phase1.MainActivity$PlaceholderFragment">
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <TableRow>
+            <Spinner
+                android:id="@+id/partyListSpinner_pending"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"/>
+
+            <Switch
+                android:id="@+id/transSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text="All" />
+
+        </TableRow>
+        <!--<TableRow>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="PURCHASE"/>-->
+        <!--</TableRow>-->
+        <ListView
+            android:id="@+id/pendingPurchaseList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="#B29090"
+            android:layout_weight="2">
+
+        </ListView>
+        <TableRow>
+
+            <TextView
+                android:text=""/>
+        </TableRow>
+
+            <ListView
+                android:id="@+id/pendingSaleList"
+                android:background="#4A9C67"
+                android:layout_weight="2">
+
+            </ListView>
+    </TableLayout>
+
+
+</LinearLayout>

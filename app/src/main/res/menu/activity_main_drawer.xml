@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_company"
+            android:title="Companies" />
+        <item
+            android:id="@+id/nav_outstand"
+            android:title="Outstanding" />
+        <item
+            android:id="@+id/nav_pending"
+            android:title="Pending" />
+        <item
+            android:id="@+id/nav_trans"
+            android:title="Transaction" />
+        <item
+            android:id="@+id/nav_payment"
+            android:title="Payment" />
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help" />
+    </group>
+
+</menu>

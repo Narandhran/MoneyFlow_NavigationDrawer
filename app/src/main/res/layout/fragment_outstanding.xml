@@ -1,0 +1,100 @@
+ <!--<RelativeLayout-->
+            <!--android:id="@+id/outstandingLayout"-->
+            <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--xmlns:tools="http://schemas.android.com/tools"-->
+            <!--tools:context="com.neemshade.moneyflow.phase1.MainActivity$PlaceholderFragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:padding="10dip">-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/purchase"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text="PURCHASE"/>-->
+
+            <!--<ListView-->
+            <!--android:id="@+id/outstandingPurchaseList"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dip"-->
+            <!--android:background="#B29090"-->
+            <!--android:layout_below="@+id/purchase">-->
+
+            <!--</ListView>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/sale"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:layout_marginTop="10dip"-->
+            <!--android:text="SALE"-->
+            <!--android:layout_below="@+id/outstandingPurchaseList"/>-->
+
+
+            <!--<ListView-->
+            <!--android:id="@+id/outstandingSaleList"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dip"-->
+            <!--android:background="#4A9C67"-->
+            <!--android:layout_below="@+id/sale">-->
+
+            <!--</ListView>-->
+ <!--</RelativeLayout>-->
+
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     tools:context="com.neemshade.navigationdrawer.MainActivity$PlaceholderFragment"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:fillViewport="true" >
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:padding="10dip" >
+
+         <TextView
+             android:id="@+id/purchase"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center_vertical"
+             android:text="PURCHASE" />
+
+
+         <ListView
+             android:id="@+id/outstandingPurchaseList"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dip"
+             android:background="#B29090"
+             android:layout_weight="2">
+         </ListView>
+
+         <TextView
+             android:id="@+id/sale"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dip"
+             android:gravity="center_vertical"
+             android:text="SALE" />
+
+         <ListView
+             android:id="@+id/outstandingSaleList"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dip"
+             android:gravity="center_vertical"
+             android:background="#4A9C67"
+             android:layout_weight="2">
+         </ListView>
+     </LinearLayout>
+
+ </LinearLayout>
+

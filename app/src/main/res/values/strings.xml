@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MoneyFlow</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="help">
+        <![CDATA[
+        <header><h2>Help</h2></header>
+
+
+<p>Welcome to <b>MoneyFlow</b>, an android app from <a href="http://www.neemshade.com">neemShade.com</a></p>
+
+<p>MoneyFlow aims at helping small and medium scale business people to track their financial transactions.
+Provision is there to track transactions of different companies (that you may own).</p>
+
+<p>A company deals with business entities called parties. Your company may receive goods for credit from parties. Likewise, sell goods to other parties and collect money later.
+<b>Outstanding payment</b> (sum of all pending payment) that parties owe are listed.</p>
+
+<p>The <b>Pending payment</b> screen shows the transactions that ought to be paid today or by past dates.  Separate tables list the payments towards parties and from parties.</p>
+
+<p>Provision is available to enter a new transaction detail. When you buy or sell goods, you this tab to input the transaction detail.
+Also, when a payment is made by your company or by parties, enter the payment detail in the "Payment" tab.
+These input made in these two screens will be reflected in the "Outstanding" page.</p>
+
+<p>The current version of MoneyFlow is a trial model using dummy data.  We want your feedback about the screens and user interface.
+We are working towards providing real tool, that will store transaction related data and provide useful reports and alerts.</p>
+<blockquote>
+	<p><i><h5>Thanks for your time in using this tool</h5></i></p>
+</blockquote>
+        ]]>
+        </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
